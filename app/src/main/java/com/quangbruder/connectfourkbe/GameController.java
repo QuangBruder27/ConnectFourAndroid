@@ -63,9 +63,10 @@ public class GameController {
         if (gameLogic.isMovable(col_nr, gameboard)  && !gameLogic.isFinished(gameboard)){
             int row = gameLogic.makeMove(col_nr, gameboard);
             System.out.println("BoardClick----------------------------------");
-            if (device_player == player)
+            if (device_player == player) {
                 System.out.println("BoardClick: OK");
-                bluetoothTransfer.write((""+col_nr).getBytes());
+                bluetoothTransfer.write(("" + col_nr).getBytes());
+            }
             drawCircle(gameboard.getCurrentPlayer(), holder ,row);
             statusNoti(gameboard, holder);
         } else {
