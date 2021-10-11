@@ -6,3 +6,5 @@ Game Connect Four for 2 Players via Bluetooth
 
 Component Diagram\
 <img src="Component.png" width="700">
+
+For more information, please read the dokcumentation file (in German)
