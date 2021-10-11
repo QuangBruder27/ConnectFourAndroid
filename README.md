@@ -1,4 +1,4 @@
 # ConnectFourAndroid
 Android App- ConnectFour
 
-<img src="Screenshot.png" width="300
+<img src="Screenshot.png" width="300">
